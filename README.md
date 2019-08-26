@@ -159,7 +159,21 @@ To generate the docs, run `rake expressive_apis:generate`. This will output each
 output as you please (ie, for openapi, put behind authentication so the examples work). The world is your oyster with this now, do what you
 want!
 
-## Adding Targets
+### Adding Targets
 
 expressive-apis outputs an agonstic format of the api and then uses transformers to output the data to a given api spec. These can be
 added by Pull Requests. See the `expressive-apis/targets/base_target.rb` file for the basic hooks that can be used to transform the output.
+
+## Development
+
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+
+To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/derigible/expressive-apis. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Code of Conduct
+
+Everyone interacting in the Expressive::Apis project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/derigible/expressive-apis/blob/master/CODE_OF_CONDUCT.md).
